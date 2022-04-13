@@ -1,0 +1,25 @@
+.or{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divider{
+    width:150px ;
+    height:2px ;
+    border: 0 10px;
+    background-color: rgb(149, 160, 167, 1);
+}
+@media screen and (max-width: 576px){
+    .form{
+        margin: 0 auto;
+        width: 100%;
+    }
+    /* .register{
+        display: block;
+        text-shadow: 100px;
+        background-color: rgb(202, 202, 202);
+        margin-left: 0;
+        padding-left: 0;
+    } */
+}
